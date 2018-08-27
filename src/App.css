@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #d9e2f3;
+}
+
+thead {
+  color: white;
+  background-color: #4472c4;
+}
+
+td {
+  border: 1px solid #4472c4;
+  padding: 2px;
+
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.secondTR {
+  background-color: white;
+}
